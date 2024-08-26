@@ -1,0 +1,27 @@
+@use './tw.scss';
+
+html,
+body,
+#app {
+  @apply w-full h-full;
+}
+
+body {
+  @apply bg-neutral-300 dark:bg-neutral-800 text-neutral-900 dark:text-neutral-100;
+}
+
+#app {
+  @apply flex flex-col overflow-hidden;
+}
+
+html {
+  ::-webkit-scrollbar {
+    @apply w-2;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-neutral-400 dark:bg-neutral-700;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-neutral-300 dark:bg-neutral-800;
+  }
+}
