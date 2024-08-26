@@ -8,13 +8,11 @@ This is a simple tool to import Curseforge modpacks into Modrinth. It will grab 
 
 ![image](https://github.com/user-attachments/assets/819a9983-8b94-4241-a194-640e36865481)
 
-
-
 ## Usage
 
 ### Simple
 
-Download the latest release from the [releases page](https//github.com/ultimateshadsform/modrinth-importer/releases) and run it. It will ask you for the modpack file and then just select a diurectory to save the `.mrpack` file and import it into Modrinth.
+Download the latest release from the [releases page](https//github.com/ultimateshadsform/modrinth-importer/releases) and run it. It will ask you for the modpack file and then just select a directory to save the `.mrpack` file and import it into Modrinth.
 
 ### Advanced
 
