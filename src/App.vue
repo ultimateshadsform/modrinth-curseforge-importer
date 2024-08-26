@@ -33,13 +33,13 @@ window.ipcRenderer.onComplete((val) => {
   }
 });
 
-const handleZipFile = async (event: Event) => {
+const handleZipFile = async () => {
   const response = await window.ipcRenderer.selectFile();
   console.log(response);
   chosenZip.value = response;
 };
 
-const handleDirectory = async (event: Event) => {
+const handleDirectory = async () => {
   const dir = await window.ipcRenderer.selectFolder();
   console.log(dir);
   chosenDirectory.value = dir;
