@@ -1,5 +1,7 @@
 # Modrith Curseforge Modpack Importer
 
+EDIT: I don't use Modrinth anymore and I am using superior Prism Launcher.
+
 This is a simple tool to import Curseforge modpacks into Modrinth. It will grab the modpack's metadata and download all the mods in the modpack and export it into an importable `.mrpack` file.
 
 ![image](https://github.com/user-attachments/assets/7f58f73d-d86f-4ae9-8d94-0b221913284f)
